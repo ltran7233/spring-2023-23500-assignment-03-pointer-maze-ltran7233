@@ -9,10 +9,10 @@
  * do NOT edit the value of kYourName. Changing kYourName will change which
  * maze you get back, which might invalidate all your hard work!
  */
-const std::string kYourName = "TODO: Replace this string with your name.";
+const std::string kYourName = "Lina";
 
 /* Change these constants to contain the paths out of your mazes. */
-const std::string kPathOutOfNormalMaze = "SESSWENNENSESS";
+const std::string kPathOutOfNormalMaze = "SSENEESSWENNNWWEESWWSWSE";
 const std::string kPathOutOfTwistyMaze = "ESWEESWENE";
 
 int main() {
@@ -30,6 +30,7 @@ int main() {
         std::cout << "Sorry, but you're still stuck in your labyrinth." << std::endl;
     }
 
+		// did not do assignment 3
 		
     /* Generate the twisty maze.
      *

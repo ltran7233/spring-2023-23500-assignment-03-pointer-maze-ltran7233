@@ -1,4 +1,5 @@
 #include "Labyrinth.h"
+#include <iostream>
 
 bool isPathToFreedom(MazeCell* start, const std::string& moves) {
 		bool escape = false;
