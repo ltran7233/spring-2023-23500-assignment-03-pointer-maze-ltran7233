@@ -4,7 +4,7 @@ LDFLAGS=
 CXX=g++
 
 main: $(OBJECTS)
-	$(CXX) -g  -o main $(OBJECTS)
+	$(CXX) -g -o main $(OBJECTS)
 Labyrinth.o: Labyrinth.cpp Labyrinth.h
 
 Main.o: Main.cpp MazeGenerator.h Labyrinth.h
